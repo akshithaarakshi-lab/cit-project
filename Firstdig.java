@@ -5,8 +5,10 @@ public class Firstdig {
         System.out.println("Enter a number:");
         int num = sc.nextInt();
         int Firstdig = num/10;
-        System.out.println("Firstdig is "+Firstdig);
+        int sd=num%10;
+        int rev=(sd*10)+Firstdig;
+        System.out.println("Reversed digit is: "+rev);
     }
 
-    
+            
 }
